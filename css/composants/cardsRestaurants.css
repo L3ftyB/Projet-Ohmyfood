@@ -1,0 +1,133 @@
+.sectionRestaurant{
+    background: #F7F7F7;
+    margin-top: 70px;
+    padding-bottom: 65px;
+    width: 100%;
+}
+
+.sectionRestaurant h2{
+    padding-top: 50px;
+    padding-left: 20px;
+
+}
+
+.displayCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardRestaurant{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    Height: 251px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.imageRestaurant{
+    width: 335px;
+    height: 174px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.nouveauTag{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 80px;
+    height: 29px;
+    background-color: #99E2D0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #008766;
+}
+
+.divRelative{
+    position: relative;
+}
+.containerRestaurant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 335px;
+    height: 77px;
+}
+
+.textCard{
+    padding-left: 13px;
+    padding-bottom: 13px;
+    line-height: 25px;
+}
+
+.textCard h3, p{
+    margin: 0;
+}
+
+.fullheart{
+    display:none;
+}
+
+.fullheart, .emptyheart{
+    font-size: 25px;
+}
+
+.hearts{
+    margin-bottom: 16px;
+    margin-right: 20px;
+}
+
+/*PAGES DE RESTAURANTS*/
+
+.imagePageResto{
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.nameRestaurant{
+    font-family: "Shrikhand";
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.genreTitles{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+.plateName h3{
+    margin: 0;
+}
+
+.entrees,.plats,.desserts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.pageMenu{
+    padding-left: 0;
+    padding-right: 0;
+    background: #F7F7F7;
+    border-radius: 40px 40px 0px 0px;
+
+    position: absolute;
+    width: 100%;
+    top: 326px;
+    
+}
