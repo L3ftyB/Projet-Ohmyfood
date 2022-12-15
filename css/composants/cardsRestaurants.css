@@ -87,6 +87,12 @@
     margin-right: 20px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+  
+  }
+
 /*PAGES DE RESTAURANTS*/
 
 .imagePageResto{
@@ -99,12 +105,33 @@
 .nameRestaurant{
     font-family: "Shrikhand";
     font-weight: 400;
-    font-size: 22px;
+    font-size: 28px;
+    margin-bottom: 0;
+    
+}
+
+.titleRestaurant{
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.heartsTitle{
+    padding-right: 25px;
+    padding-top: 10px;
 }
 
 .genreTitles{
     font-weight: 300;
     font-size: 16px;
+    padding-right: 15px;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #99E2D0;
+    width: 40px;
+    margin-left: 15px;
+    
 }
 
 
@@ -113,11 +140,18 @@
     margin: 0;
 }
 
+.containerPlate{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .entrees,.plats,.desserts{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .pageMenu{
@@ -128,6 +162,13 @@
 
     position: absolute;
     width: 100%;
-    top: 326px;
+    top: 301px;
     
+}
+
+.prix{
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 23px;
 }
