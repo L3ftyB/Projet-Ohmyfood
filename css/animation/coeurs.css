@@ -1,0 +1,28 @@
+
+
+
+.fullheart{
+    position: relative;
+    margin-left: -25px;
+    
+    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.emptyheart:hover{
+    display:none;
+
+}
+
+.emptyheart:hover + .fullheart{
+    display:initial;
+    
+}
+
+.fullheart:hover ~ .emptyheart{ 
+    display: none;
+    
+}

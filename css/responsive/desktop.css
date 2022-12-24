@@ -1,0 +1,32 @@
+@media only screen and (min-width: 992px){
+    /*Index - section Fonctionnement*/
+    .reservingProcess{
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+    /*Section Restaurants*/
+    .displayCards{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /*footer*/
+
+    ul{
+        display: flex;
+        gap: 40px;
+    }
+
+    .displayFooter{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+    }
+
+    .displayFooter h3{
+        margin: 19px;
+    }
+
+
+}

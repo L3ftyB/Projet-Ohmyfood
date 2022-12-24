@@ -33,6 +33,10 @@
     background: #F5EDFF;
 }
 
+.buttonProcess:hover + .buttonIcons{
+    color: #9356DC;
+}
+
 .tagwithButton{
     display: flex;
     align-items: center;
@@ -44,6 +48,4 @@
     color: #7E7E7E;
 }
 
- .buttonIcons:hover{
-    color:#9356DC;
-}
+ 
