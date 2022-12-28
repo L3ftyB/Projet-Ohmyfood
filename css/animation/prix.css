@@ -13,13 +13,19 @@
 
 .checkIcon{
     color: white;
+    font-size: 22px;
     display: none;
+    animation: rotation 500ms 100ms;
+    
+    
+    
     
 }
 
 .buttonMenu:hover .checkIcon{
-    display: initial;
-    transform: rotate(20deg);
-    
+      display: initial;
+   
     
 }
+
+

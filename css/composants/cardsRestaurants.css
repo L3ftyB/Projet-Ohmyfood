@@ -146,7 +146,7 @@ a {
 
 .plateName h3{
     margin: 0;
-    width: 80%;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -155,7 +155,7 @@ a {
 
 .plateName p{
     margin: 0;
-    width: 80%;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -164,8 +164,47 @@ a {
 
 .containerPlate{
     flex-grow: 1;
-    
+    width: 80%;
     padding-left: 10px;
+}
+
+.titleRestaurant{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonMenu{
+    display: flex;
+    height: 69px;
+    width: 100%;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    border-radius: 15.0431px;
+    background-color:  white;
+    opacity: 0;
+    
+}
+
+.entrees .buttonMenu{
+    animation: apparition 2s forwards;
+}
+
+.plats .buttonMenu{
+    animation: apparition 2s 1s forwards;
+}
+
+.desserts .buttonMenu{
+    animation: apparition 2s 2s forwards;
+    
+}
+
+.containerPlate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:69px;
+    
 }
 
 .entrees,.plats,.desserts{
