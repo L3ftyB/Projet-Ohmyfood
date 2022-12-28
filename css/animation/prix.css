@@ -1,0 +1,25 @@
+.greenBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 600ms;
+}
+
+.buttonMenu:hover .greenBlock{
+    width: 20%;
+    
+
+}
+
+.checkIcon{
+    color: white;
+    display: none;
+    
+}
+
+.buttonMenu:hover .checkIcon{
+    display: initial;
+    transform: rotate(20deg);
+    
+    
+}
