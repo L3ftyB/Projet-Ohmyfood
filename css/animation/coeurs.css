@@ -12,17 +12,13 @@
     -webkit-text-fill-color: transparent;
 }
 
-.emptyheart:hover{
+.hearts:hover .emptyheart{
     display:none;
 
 }
 
-.emptyheart:hover + .fullheart{
+.hearts:hover .fullheart{
     display:initial;
     
 }
 
-.fullheart:hover ~ .emptyheart{ 
-    display: none;
-    
-}
