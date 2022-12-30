@@ -106,7 +106,7 @@
     }
 
 
-    to {
+    100% {
       transform: rotate(360deg);
       background-color: #99E2D0;
     }

@@ -4,8 +4,13 @@ footer{
     padding-left: 25px;
     padding-top: 30px;
     height:  197px;
+    text-decoration: none;
 
     
+}
+
+footer a{
+    color: white;
 }
 
 footer h3{
