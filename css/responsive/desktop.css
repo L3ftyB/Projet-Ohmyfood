@@ -26,10 +26,28 @@
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
+        margin-right: 50px;
     }
 
     .displayFooter h3{
         margin: 19px;
+    }
+
+    /*Pages de restaurants*/
+
+    .pageMenu{
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        margin-top: -50px;
+    }
+
+    .buttonMenu{
+        width: 70%;
+    }
+
+    .genreTitles{
+        margin-left: 16%;
     }
 
 
