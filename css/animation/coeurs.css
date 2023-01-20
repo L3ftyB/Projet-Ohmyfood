@@ -10,15 +10,26 @@
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    
+    
+    
 }
+
+
 
 .hearts:hover .emptyheart{
     display:none;
-
+    
 }
 
 .hearts:hover .fullheart{
     display:initial;
     
+    
+    
 }
+
+
+
+
 
